@@ -1,0 +1,24 @@
+{
+  "name": "youtube-analytics-api",
+  "description": "The following repo show basic integration and use of Youtube analytics APIs with OAuth.",
+  "repository": "google/google-api-nodejs-client",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "tokens": "node sample.js",
+    "sample": "node sample.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "googleapis": "^42.0.0",
+    "nconf": "^0.10.0",
+    "open": "^6.3.0",
+    "server-destroy": "^1.0.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}

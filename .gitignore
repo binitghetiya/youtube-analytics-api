@@ -1,0 +1,3 @@
+node_modules/
+secrets/oauth2.keys.json
+secrets/youtube-API-secrets.json
